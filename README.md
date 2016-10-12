@@ -9,6 +9,8 @@ These are key concepts when developing Raincatcher modules.
  
 This module is a very simple Raincatcher module that allows the listing and creation of users. The goal of this module is to be integrated into a *client* and *cloud* app to allow client interactions (list user, create user) to be pushed to the cloud app. 
 
+This module is intended to be used with the [raincatcher-tutorial-cloud](https://github.com/feedhenry-raincatcher/raincatcher-tutorial-cloud) and [raincatcher-tutorial-client](https://github.com/feedhenry-raincatcher/raincatcher-tutorial-client) apps.
+
 ## Solution Overview
 
 This module is separated into to sections: *client* and *cloud*. On both sides of the module, the mediator topic `wfm:user` is used for *publishing* and *subscribing* using the mediator.
