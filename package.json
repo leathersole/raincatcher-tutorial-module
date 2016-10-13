@@ -9,6 +9,7 @@
     "request": "^2.75.0"
   },
   "devDependencies": {
+    "angular": "^1.5.8",
     "fh-wfm-mediator": "0.0.14",
     "fh-wfm-template-build": "0.0.9"
   }
