@@ -52,3 +52,5 @@ To highlight this, consider an example flow:
 8. The GET handler responds with a HTTP response to the `UserClientService`.
 9. The `UserClientService` handles the HTTP response and emits the `done` state for the `wfm:user:list` topic.
 10. The `UserController` subscription in Step 1 is fired. This updates the state of the users on the `$scope`, which in turn updates the UI.
+
+![Client-Cloud Interaction Sequence Diagram](./sequence-diagrams/Client-Cloud Interaction.png)
