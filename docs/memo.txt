@@ -1,0 +1,13 @@
+# module
+- angular
+ - module
+  - directive
+  - controller
+  - service
+- common
+- server
+# client
+- index.html
+- app.js
+# cloud
+- application.js
