@@ -6,8 +6,11 @@
   - service
 - common
 - server
+Should it not refer to fh-js-sdk and fh-mbaas-api?
 # client
 - index.html
 - app.js
+ - pass $fh to the module
 # cloud
 - application.js
+ - pass mbaasapi to the module
